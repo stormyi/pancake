@@ -1,0 +1,284 @@
+body{
+	margin: 0;
+}
+#a{
+	height: 100px;
+	background: linear-gradient(to top, #C7C7C7 , #ffffff); 
+}
+#a .b{
+	background-color: white;
+	width: 500px;
+	height: 50px;
+	margin: 25px 676px;
+	border: 2px solid #ffffff;
+	border-radius: 2em;
+	position: absolute;
+}
+#a input[type="text"]{
+	width: 380px;
+	height: 45px;
+	margin: 0 0 0 50px;
+	border: none;
+	outline: none;
+	font-size: 23px;
+}
+#a input[type="button"]{
+	background: #ae4141;
+	font-size: 24px;
+	color: #ffffff;
+	width: 50px;
+	height: 40px;
+	outline: none;
+}
+hr{
+	height: 5px;
+	background: linear-gradient(to left,#ff4b1f, #1fddff);	
+	margin: 0;
+	border: 0;        
+}
+#c{
+	background-image: url(./3.jpg);
+	height: 80px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	line-height: 80px;
+	text-align: center;
+	color: #FFE2D9;
+	font-size: 60px;
+}
+#c .d{
+	width: 15%;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#c .e{
+	width: 20%;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#c .f{
+	width: 40%;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#c li{
+	font-size: 20px;
+	list-style: none;
+	width: 90px;
+	float: left;
+}
+#c .g{
+	width: 25%;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#c a{
+	color: #F5F5F5;
+	text-decoration: none;
+}
+#c a:hover{
+	color: #0081BC;
+	text-decoration: underline;
+}
+#c a:active{
+	color: #30F;
+}
+#main{
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	background-color: #ECE7E7;
+}
+#main .left{
+	float: left;
+	width: 285px;
+	height: 750px;
+	border: 1px;
+}
+#main .left .up{
+	width: 245px;
+	height: 342px;
+	padding: 20px;
+	margin: 1px;
+	border-radius: 5px 0 5px 5px;
+	background-color: white;
+}
+#main .left .up dt{
+	height: 48px;
+	width: 242px;
+	text-align: center;
+}
+#main .left .up ul , ol{
+	list-style: none;
+	padding: 0;
+}
+#main .left .up li{
+	width: 245px;
+	border: 1px solid #9b9b9b;
+	margin: 10px 0 0 0;
+	border-radius: 5px;
+}
+#main .left .up li input{
+	width: 165px;
+	height: 36px;
+	padding: 0 5px;
+	border: 0;
+	outline: none;
+}
+#main .left .up li input .tip{
+	color: #949494;
+}
+#main .left .up .name , #main .left .up .password , #main .left .up .code{
+	width: 55px;
+	height: 36px;
+	background-color: #f9f9f9;
+	border-right: 1px solid #d7d7d7;
+	line-height: 35px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px 0 0 5px;
+}
+#main .left .up .btn{
+	width: 245px;
+	height: 30px;
+}
+#main .left .up .btn .btn_login{
+	background-color: #0081bc;
+	border: 1px solid #0081bc;
+	font-size: 16px;
+	width: 112px;
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	line-height: 26px;
+	float: left;
+	outline: none;
+}
+#main .left .up .btn .btn_regist{
+	background-color: #f4f4f4;
+	border: 1px solid #d9d9d9;
+	font-size: 16px;
+	width: 112px;
+	height: 30px;
+	padding: 0;
+	margin-left: 16px;
+	text-align: center;
+	color: #333;
+	border-radius: 20px;
+	line-height: 26px;
+	float: left;
+	outline: none;
+}
+#main .left .up .otherlogin{
+	margin: 20px -20px -20px -20px;
+	background-color: #f5f5f5;
+	padding: 30px 20px;
+	border-top: 1px solid #ddd;
+	border-radius: 0 0 5px 5px;
+}
+#main .left .up .j{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1;
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+#main .down .linknava{
+	width: 285px;
+	float: left;
+	height: 30px;
+	background-color: #0081BC;
+}
+#main .down .linknava font{
+	padding-left:10px;
+    line-height:33px;
+    font-size:25px; 
+    color: white;
+}
+#main .down .link{
+	margin: 0;
+	padding-left: 8px;
+	float: left;
+	width: 277px;
+	height: 338px;
+	font-size: 20px;
+	line-height: 33px;
+}
+#main .down .link li{
+	list-style: none;
+}
+#main .down .link a{
+	color: black;
+	text-decoration: none;
+}
+#main .down .link a:hover{
+	color: #0081BC;
+	text-decoration: underline;
+}
+#main .down .link a:active{
+	color: #30F;
+}
+#main .right{
+	width: 910px;
+	height: 750px;
+	margin: auto;
+	float: right;
+}
+#main .right .new{
+	width: 910px;
+	height: 50px;
+	background-color: #0081BC;
+}
+#main .right .new font{
+	padding-left:30px;
+    line-height:50px;
+    font-size:35px; 
+    color: white;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+#main .right a{
+	color: #333333;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-weight: bolder;
+}
+#main .right a:hover{
+	color: #0081BC;
+	text-decoration: underline;
+}
+#main .right a:active{
+	color: #30F;
+}
+#bottom{
+	width: 1200px;
+	height: 70px;
+	margin: auto;
+}
+#bottom .logo{
+	float: left;
+	width: 225px;
+	height: 70px;
+	background: url("./7.gif");
+}
+#bottom .sign{
+	float: right;
+	width: 400px;
+	padding-top: 20px;
+    padding-right: 30px;
+    font-size:30px; 
+    line-height:33px;
+}
+

@@ -1,13 +1,118 @@
 <html>
-
 <head>
-<title>搞笑</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./a.css">
+<title>网站首页</title>
 </head>
-
 <body>
-<p>body 元素的内容会显示在浏览器中。</p>
-<p>title 元素的内容会显示在浏览器的标题栏中。</p>
+  <script language="javascript">
+    function check()
+    {
+      if(formlogin.username.value=="")
+    {alert("用户名不能为空，请输入正确的用户名");
+          formlogin.username.focus();
+          formlogin.username.select();
+        return false;
+      }
+         else if(formlogin.pwd.value=="")
+    {
+     alert("密码不能为空，请输入正确的用户名");
+       formlogin.pwd.focus();
+       formlogin.pwd.select();
+       return false;
+      }
+    }
+  </script>
+<body>
+	<div id="a">
+		<div class="b">
+			<input type="text" placeholder="       请输入搜索内容"></input>
+			<input type="button" value="Go"></input>
+		</div>
+	</div>
+	<hr>
+	<div id="c">
+		<p class="g"></p>
+		<ul class="d">
+			<li><a href="#">网站首页</a></li>
+			<li><a href="#">兴趣小组</a></li>
+			<li><a href="#">工具下载</a></li>
+		</ul>
+		<p class="e"><a href="jsphome.jsp">JSP之家</a></p>
+		<ul class="f">
+			<li><a href="#">电子资源</a></li>
+			<li><a href="#">专家在线</a></li>
+			<li><a href="#">联系方式</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<div class="left">
+			<div class="up">
+				<dt>
+					<font size="5" face="微软雅黑" >欢迎来到JSP之家</br></font>
+					<font color="#888888" size="3">Welcome to JSP</font>
+				</dt>
+				<form name="formlogin" action="LoginServlet" method="post" onSubmit="return check()">
+				<ul>
+					<li>
+						<label class="name"><b>用户名</b></label>
+						<input type="text" placeholder="输入用户名" class="tip" name="username"></input>
+					</li>
+					<li>
+						<label class="password" ><b>密码</b></label>
+						<input type="password" placeholder="输入密码" class="tip" name="psw"></input>
+					</li>
+				</ul>
+				<div class="btn">
+					<input type="submit" value="登录" class="btn_login" ></input>
+					<input type="button" value="注册" class="btn_regist" onclick="window.location='regin.jsp'"></input>
+				</div>
+      
+				</form>
+				<div class="otherlogin">
+					<p class="j">使用第三方登录</p>
+					<img src="./6.png">
+				</div>
+			</div>
+			<div class="down">
+				<div class="linknava">
+					<font>友情链接</font>
+				</div>
+				<div class="link">
+					<ul>
+						<li><a href="#">中北大学</a></li>
+						<li><a href="#">当当网</a></li>
+						<li><a href="#">京东</a></li>
+						<li><a href="#">淘宝</a></li>
+						<li><a href="#">百度</a></li>
+						<li><a href="#">时光</a></li>
+						<li><a href="#">士大夫</a></li>
+						<li><a href="#">士大夫</a></li>
+						<li><a href="#">速度</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="new">
+				<font>今日快讯</font>
+			</div>
+			<a href="#"><img src="./10.jpg"></a>
+			<center><a href="#">雅虎股东正失去对CEO玛梅耶尔的耐心<br><span><font style="font-weight: normal; font-size: 27px">“玛梅耶尔专访”</font></span></a></center>
+			<ul>
+				<li><a>雅虎股东正失去对CEO玛梅耶尔的耐心</a></li>
+				<li><a>雅虎股东正失去对CEO玛梅耶尔的耐心</a></li>
+				<li><a>雅虎股东正失去对CEO玛梅耶尔的耐心</a></li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div id="bottom">
+        <div class="logo">
+        </div>
+        <div class="sign">
+            <font color="#CC2B33" face="楷体"><b>中北大学唯一指定合作网站</b></font>
+        </div>
+    </div>
 </body>
-
 </html>
-
